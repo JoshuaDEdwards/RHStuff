@@ -1,0 +1,14 @@
+{
+  "name": "exercise1",
+  "version": "1.0.0",
+  "description": "Exercise1 Files",
+  "main": "remoteMathService.js",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
