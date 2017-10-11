@@ -1,0 +1,19 @@
+<div *ngIf="user">
+	<h2>{{user.name}} details!</h2>
+    <div><label>id: </label>{{user.id}}</div>
+    <div><label>name: </label>{{user.name}}</div>
+    <div><label>username: </label>{{user.username}}</div>
+    <div><label>email: </label>{{user.email}}</div>
+    <div><label>street address: </label>{{user.address.street}}</div>
+    <div><label>suite info: </label>{{user.address.suite}}</div>
+    <div><label>city: </label>{{user.address.city}}</div>
+    <div><label>zipcode: </label>{{user.address.zipcode}}</div>
+    <div><label>geo lat: </label>{{user.address.geo.lat}}</div>
+    <div><label>geo lng: </label>{{user.address.geo.lng}}</div>
+    <div><label>phone: </label>{{user.phone}}</div>
+    <div><label>website: </label>{{user.website}}</div>
+    <div><label>company name: </label>{{user.company.name}}</div>
+    <div><label>company catchphrase: </label>{{user.company.catchPhrase}}</div>
+    <div><label>bs: </label>{{user.company.bs}}</div>
+	<button (click)="goBack()">Back</button>
+</div>

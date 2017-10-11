@@ -1,0 +1,17 @@
+<h3>The Users</h3>
+<div>
+<div class="headerRow">
+      <div class="userName">Name</div>
+	  <div class="userUserName">UserName</div>
+	  <div class="userEmail">E-mail</div>
+	  <div class="userAddressHeader">Address</div>
+    </div>
+  <a *ngFor="let user of users"  [routerLink]="['/detail', user.id]"  class="userRowLink">
+    <div class="userRow">
+      <div class="userName">{{user.name}}</div>
+	  <div class="userUserName">{{user.username}}</div>
+	  <div class="userEmail">{{user.email}}</div>
+	  <div class="userAddress">{{user.address.street}}<br>{{user.address.city}} {{user.address.zipcode}}</div>
+    </div>
+  </a>
+</div>

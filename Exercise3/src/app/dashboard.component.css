@@ -1,0 +1,44 @@
+.userRowLink{
+	text-decoration: none;
+}
+.userRow,.headerRow{
+	width: 95%;
+	margin: auto;
+}
+
+.userName{
+	display: inline-block;
+	min-width: 12em;
+	border: 1px solid black;
+	margin: 0px;
+	padding-top: 1em;
+}
+
+.userUserName{
+	display: inline-block;
+	border: 1px solid black;
+	min-width: 8em;
+	margin: 0px;
+	padding-top: 1em;
+}
+
+.userEmail{
+	display: inline-block;
+	border: 1px solid black;
+	min-width: 15em;
+	margin: 0px;
+	padding-top: 1em;
+}
+.userAddress{
+	display: inline-block;
+	border: 1px solid black;
+	min-width: 12em;
+	margin: 0px;
+}
+.userAddressHeader{
+	display: inline-block;
+	border: 1px solid black;
+	min-width: 12em;
+	margin: 0px;
+	padding-top: 1em;
+}
