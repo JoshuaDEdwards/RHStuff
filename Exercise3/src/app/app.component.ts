@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
   <h1>{{title}}</h1>
   <nav>
-    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/dashboard" routerLinkActive="active">Home</a>
   </nav>
   <router-outlet></router-outlet>
 `,
@@ -14,5 +14,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Users';
+  title = 'Exercise 3';
 }
