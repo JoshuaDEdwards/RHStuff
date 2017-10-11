@@ -5,17 +5,20 @@
 		<title>Exercise 2</title>
 	</head>
 	<body>
+		<!-- Fairly straightforward layout, menu at the top, Content below -->
+		<!-- included more ids than referenced in the CSS mostly as hooks for DOM manipulation -->
 		<div id="box">
 			<div id="boxHeader">
 				<span id="boxHeaderTitle">OpenShift</span>
-				<ul id="boxMenu">
-					<li id="boxMenu1" class="boxMenuItem selected">Item</li>
-					<li id="boxMenu2" class="boxMenuItem">Item</li>
-					<li id="boxMenu3" class="boxMenuItem">Item</li>
-				</ul>
+				<div id="boxMenu">
+					<span id="boxMenu1" class="boxMenuItem selected">Item</span>
+					<span id="boxMenu2" class="boxMenuItem">Item</span>
+					<span id="boxMenu3" class="boxMenuItem">Item</span>
+				</div>
 			</div>
 			<div id="boxContent">
 				<h1 id="boxContentHeader">Panel content</h1>
+				<!-- lipsum.com is my Lorem Ipsum generator of choice, good tool to have a reference to -->
 				<p class="boxContentDescription">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lectus diam. Sed quis arcu vitae nisl placerat vulputate a at augue. Vivamus blandit ut augue in gravida. 
 				</p>
