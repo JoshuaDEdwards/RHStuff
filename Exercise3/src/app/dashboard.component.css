@@ -1,44 +1,50 @@
 .userRowLink{
 	text-decoration: none;
+	color: black;
 }
+
+a.userRowLink:visited{
+	color: black;
+}
+
+a.userRowLink:hover{
+	color: #039be5;
+}
+
 .userRow,.headerRow{
-	width: 95%;
-	margin: auto;
+	max-width: 50em;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+.userName,.userUserName,.userEmail,.userAddress{
+	display: inline-block;
+	border: 1px solid black;
+	margin: 0px -6px 0px 0px;
+	padding: 0.15em;
 }
 
 .userName{
-	display: inline-block;
 	min-width: 12em;
-	border: 1px solid black;
-	margin: 0px;
-	padding-top: 1em;
 }
 
 .userUserName{
-	display: inline-block;
-	border: 1px solid black;
 	min-width: 8em;
-	margin: 0px;
-	padding-top: 1em;
 }
 
 .userEmail{
-	display: inline-block;
-	border: 1px solid black;
 	min-width: 15em;
-	margin: 0px;
-	padding-top: 1em;
 }
+
 .userAddress{
-	display: inline-block;
-	border: 1px solid black;
 	min-width: 12em;
-	margin: 0px;
 }
-.userAddressHeader{
-	display: inline-block;
-	border: 1px solid black;
-	min-width: 12em;
-	margin: 0px;
-	padding-top: 1em;
+
+/* alternating row colors */
+.even {
+	background-color:#ccc;
+}
+
+.odd{
+	/* inheriting defaults for now, could add style here.*/
 }

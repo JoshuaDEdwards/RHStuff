@@ -11,7 +11,6 @@ import { DashboardComponent }   from './dashboard.component';
 import { UsersComponent }      from './users.component';
 import { UserDetailComponent }  from './user-detail.component';
 import { UserService }          from './user.service';
-import { UserSearchComponent }          from './user-search.component';
 
 @NgModule({
   imports: [
@@ -24,8 +23,7 @@ import { UserSearchComponent }          from './user-search.component';
     AppComponent,
     DashboardComponent,
     UserDetailComponent,
-    UsersComponent,
-	UserSearchComponent
+    UsersComponent
   ],
   providers: [ UserService ],
   bootstrap: [ AppComponent ]
